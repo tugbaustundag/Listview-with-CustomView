@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:customviews="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content" >
+
+    <com.tugbaustundag.listview_with_customview.CircleView
+        android:id="@+id/simpleViewCircle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        customviews:shape="circle"
+        customviews:dim="15dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <LinearLayout android:id="@+id/linearMain"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+</merge>
